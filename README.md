@@ -1,4 +1,4 @@
-# OmniFood-WebPage-
+# OmniFood-WebPage (Practise)
 A responsive website
 
 What I learnt:
