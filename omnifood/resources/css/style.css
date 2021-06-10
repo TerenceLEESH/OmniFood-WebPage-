@@ -8,13 +8,16 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #fff;
   color: #555;
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
+  /* cause there are spaces when scrolling the web page with smaller size */
+  overflow-x: hidden;
 }
 
 .clearfix {
@@ -101,6 +104,10 @@ h2:after {
   color: #e67e22;
   margin-bottom: 10px;
 }
+
+/* responsive web design */
+/* layout: 0px, 480px, 768px, 1024px, 1200px */
+
 /* ------------------------- */
 /* LINKS */
 /* ------------------------- */
